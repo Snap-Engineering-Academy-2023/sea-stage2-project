@@ -4,7 +4,6 @@
 
 > [!NOTE]
 > If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
-> Please read all of the requirements and instructions for submitting. Don't disqualify yourself because you missed something!  
 
 ## Project Requirements:
 
