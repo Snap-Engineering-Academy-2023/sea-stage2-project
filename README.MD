@@ -3,8 +3,8 @@
 <h3 align="center">Your task is to **create a website for your favorite small business** near you.</h1>
 
 > [!NOTE]
-> If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.
-> Please read all of the requirements and instructions for submitting. Don't disqualify yourself because you missed something!
+> If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
+> Please read all of the requirements and instructions for submitting. Don't disqualify yourself because you missed something!  
 
 ## Project Requirements:
 
