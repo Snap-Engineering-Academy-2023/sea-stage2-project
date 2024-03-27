@@ -19,7 +19,7 @@
 2. Click the green "Use as Template" button in the upper right corner, then choose the "create a new repository" option.  
   a. Choose yourself as the owner  
   b. Give your repository a name  
-  c. Click "Create Repostory"  
+  c. Click "Create Repository"  
 
 3. Copy or Download the repository files to your own computer. There are many ways to do this, it's up to you!
 
