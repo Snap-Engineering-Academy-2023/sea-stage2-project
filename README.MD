@@ -1,11 +1,16 @@
 # SEA Stage 2 Project
 
-This is the template you will use to make your project. If you have not used Github or programmed a website before, that's OK! Part of the challenge is figuring out things you're not familiar with.
+This is the template you will use to make your project. If you have not used Github or programmed a website before, that's OK! Part of the exercise is figuring out things you're not familiar with.
 
-### Getting Started
+## Getting Started
 
-1. Click the "Use as Template" button.
+1. Create a Github account if you haven't already.
 
-2. Copy/Download the repository to your own computer.
+2. Click the green "Use as Template" button in the upper right corner, then choose the "create a new repository" option.  
+  a. Choose yourself as the owner  
+  b. Give your repository a name  
+  c. Click "Create Repostory"  
 
-3. Edit the files using a text editor and preview your website by opening index.html with a web browser (double clicking the file should do it.)
+3. Copy or Download the repository files to your own computer. There are many ways to do this, it's up to you!
+
+4. Start editing the website by using a text editor for the `index.html`, `style.css`, and `scripts.js` files. As you edit, preview your website by opening `index.html` with your web browser (double clicking `index.html` should open it in a web browser). When you're done, you should see something like this:
