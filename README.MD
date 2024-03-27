@@ -1,6 +1,6 @@
 # SEA Stage 2 Project
 
-<h3 align="center">Your task is to **create a website for your favorite small business** near you.</h1>
+<h3 align="center">Your task is to create a website for your favorite small business near you.</h1>
 
 > [!NOTE]
 > If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
