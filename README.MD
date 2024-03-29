@@ -1,15 +1,20 @@
-# SEA Stage 2 Project
+# SEA Stage 2 - Data Catalog Project
 
-<h3 align="center">Your task is to create a website for your favorite small business near you.</h1>
+This is the instructions, requirements, and starter for stage two of the Snap Engineering Academy application process.
+
+## Your Task:
+
+<h3 align="center">Create a "catalog" website for something you're passionate about.</h1>
 
 > [!NOTE]
 > If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
 
 ## Project Requirements:
 
- - Your website **must** include JavaScript features that demonstrate your understanding of basic data structures: arrays and objects.
- - Start from this template, but you can change anything you like.
- - Include a note on your website that it is an unofficial webpage for your small business; if your small business already has a website, you should redesign or reimagine that website instead of duplicating the existing one.
+ - Your catalog website should demonstrate your understanding of basic data structures: arrays and objects.
+ - You must display data "dynamically" - if the data in your data structures changes, then your code should display those changes after a reload.
+ - You must add at least one extra feature to your catalog website that modifies the data or how it is displayed. Look at other websites displaying lists of data for inspiration.
+ - Start from this template, but you can change anything you like. *The code in the template is written to help you get started, but there are absolutely ways you should improve it.*
  - You must submit an original website. Please do not submit something you’ve already done for a school project, internship, or client. 
 
 ## Getting Started
