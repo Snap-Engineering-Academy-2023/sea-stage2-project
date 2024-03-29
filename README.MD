@@ -12,9 +12,9 @@ This is the instructions, requirements, and starter for stage two of the Snap En
 ## Project Requirements:
 
  - Your catalog website should demonstrate your understanding of basic data structures: arrays and objects.
- - You must display data "dynamically" - if the data in your data structures changes, then your code should display those changes after a reload.
- - You must add at least one extra feature to your catalog website that modifies the data or how it is displayed. Look at other websites displaying lists of data for inspiration.
- - Start from this template, but you can change anything you like. *The code in the template is written to help you get started, but there are absolutely ways you should improve it.*
+ - Make sure you're displaying data "dynamically" - if the data in your data structures changes, then your code should display those changes after a reload.
+ - Add at least one extra feature to your catalog website that modifies the data or how it is displayed. Look at other websites displaying lists of data for inspiration.
+ - Start from this template, but you can change anything you like. *The code in the template is written to help you get started, but there are absolutely ways to improve it.*
  - You must submit an original website. Please do not submit something you’ve already done for a school project, internship, or client. 
 
 ## Getting Started
