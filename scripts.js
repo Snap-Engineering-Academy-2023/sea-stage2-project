@@ -11,10 +11,11 @@ let titles = [
 ];
 
 // This function adds cards the page to display the data in the array
-function addCards() {
+function showCards() {
     const cardContainer = document.getElementById("card-container");
-    const templateCard = cardContainer.firstElementChild;
-
+    cardContainer.innerHTML = "";
+    const templateCard = document.querySelector(".card");
+    
     for (let i = 0; i < titles.length; i++) {
         let title = titles[i];
 
@@ -32,12 +33,11 @@ function addCards() {
         editCardContent(nextCard, title, imageURL); // Edit title and image
         cardContainer.appendChild(nextCard); // Add new card to the container
     }
-
-    // Remove the first "template" card that doesn't show any data
-    cardContainer.removeChild(templateCard);
 }
 
 function editCardContent(card, newTitle, newImageURL) {
+    card.style.display = "block";
+
     const cardHeader = card.querySelector("h2");
     cardHeader.textContent = newTitle;
 
@@ -52,10 +52,14 @@ function editCardContent(card, newTitle, newImageURL) {
 }
 
 // This calls the addCards() function when the page is first loaded
-document.addEventListener("DOMContentLoaded", addCards);
+document.addEventListener("DOMContentLoaded", showCards);
 
-// This function is called when you click the button at the bottom of the page
 function quoteAlert() {
     console.log("Button Clicked!")
     alert("I guess I can kiss heaven goodbye, because it got to be a sin to look this good!");
+}
+
+function removeLastCard() {
+    titles.pop(); // Remove last item in titles array
+    showCards(); // Call showCards again to refresh
 }
