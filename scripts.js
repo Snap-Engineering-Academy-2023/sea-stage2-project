@@ -1,36 +1,53 @@
-const titles = ["Fresh Prince of Bel Air", "Curb Your Enthusiasm", "East Los High"];
-const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg"
+const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
 const CURB_POSTER_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
 const EAST_LOS_HIGH_POSTER_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 
-// This function adds two more cards to the catalog!
+// This is an array of strings (TV show titles). 
+// Try adding another title to the array and see what happens.
+let titles = [
+    "Fresh Prince of Bel Air",
+    "Curb Your Enthusiasm",
+    "East Los High"
+];
+
+// This function adds cards the page to display the data in the array
 function addCards() {
-    // Get the card container
     const cardContainer = document.getElementById("card-container");
-    // Get the first card to use as a "template"
     const templateCard = cardContainer.firstElementChild;
 
-    // Make a copy and edit the title and image to Curb Your Enthusiasm
-    let curbYourEnthusiasmCard = templateCard.cloneNode(true);
-    editCardContent(curbYourEnthusiasmCard, titles[1], CURB_POSTER_URL);
-    cardContainer.appendChild(curbYourEnthusiasmCard);
+    for (let i = 0; i < titles.length; i++) {
+        let title = titles[i];
 
-    // Make another copy for East Los High
-    let eastLosHighCard = templateCard.cloneNode(true);
-    editCardContent(eastLosHighCard, titles[2], EAST_LOS_HIGH_POSTER_URL);
-    cardContainer.appendChild(eastLosHighCard)
+        // This code doesn't scale well, you should find another way to do it
+        let imageURL = "";
+        if (i == 0) {
+            imageURL = FRESH_PRINCE_URL;
+        } else if (i == 1) {
+            imageURL = CURB_POSTER_URL;
+        } else if (i == 2) {
+            imageURL = EAST_LOS_HIGH_POSTER_URL;
+        }
+
+        const nextCard = templateCard.cloneNode(true); // Copy the template card
+        editCardContent(nextCard, title, imageURL); // Edit title and image
+        cardContainer.appendChild(nextCard); // Add new card to the container
+    }
+
+    // Remove the first "template" card that doesn't show any data
+    cardContainer.removeChild(templateCard);
 }
 
 function editCardContent(card, newTitle, newImageURL) {
-    // Change the card's title to our new title
-    let cardHeader = card.querySelector("h2");
+    const cardHeader = card.querySelector("h2");
     cardHeader.textContent = newTitle;
-    
-    // Change the card's image to our new image
-    let cardImage = card.querySelector("img");
+
+    const cardImage = card.querySelector("img");
     cardImage.src = newImageURL;
     cardImage.alt = newTitle + " Poster";
 
+    // You can use console.log to help you debug!
+    // View the output by right clicking on your website,
+    // select "Inspect", then click on the "Console" tab
     console.log("new card:", newTitle, "- html: ", card);
 }
 
