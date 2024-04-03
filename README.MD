@@ -9,10 +9,10 @@ This is the instructions, requirements, and starter for stage two of the Snap En
 > [!NOTE]
 > If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
 
-## Requirements - Your Website Should...
+## Requirements - Your Catalog Website Should...
 
  - Show off your understanding of basic data structures: arrays and objects.  
- - Display a substantial amount of interesting data! You can look online for datasets or make your own. Your data should be easy to find in your source code, held either in variables defined at the top of scripts.js or imported from a file you added.  
+ - Display a substantial amount of interesting data in a "Catalog"! You can look online for datasets or make your own. Your data should be easy to find in your source code, held either in variables defined at the top of scripts.js or imported from a file you added.  
  - Handle data "dynamically." If the data in your data structures changes, then your code should display those changes after a reload.
 Have two or more features that “operate” on your data, modifying the data and how you display it. Data “operations” are things like filtering, searching, sorting, updating, adding, removing and so on. *Imagine what users would want to do while using your catalog website, and make it a feature!*  
  - Look polished. Use HTML and CSS to customize how you display your data. Display your data thoughtfully, as it’s much more useful that way!  
