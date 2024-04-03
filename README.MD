@@ -9,13 +9,16 @@ This is the instructions, requirements, and starter for stage two of the Snap En
 > [!NOTE]
 > If you have not used Github or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.  
 
-## Project Requirements:
+## Requirements - Your Website Should...
 
- - Your catalog website should demonstrate your understanding of basic data structures: arrays and objects.
- - Make sure you're displaying data "dynamically" - if the data in your data structures changes, then your code should display those changes after a reload.
- - Add at least one extra feature to your catalog website that modifies the data or how it is displayed. Look at other websites displaying lists of data for inspiration.
- - Start from this template, but you can change anything you like. *The code in the template is written to help you get started, but there are absolutely ways to improve it.*
- - You must submit an original website. Please do not submit something you’ve already done for a school project, internship, or client. 
+ - Show off your understanding of basic data structures: arrays and objects.  
+ - Display a substantial amount of interesting data! You can look online for datasets or make your own. Your data should be easy to find in your source code, held either in variables defined at the top of scripts.js or imported from a file you added.  
+ - Handle data "dynamically." If the data in your data structures changes, then your code should display those changes after a reload.
+Have two or more features that “operate” on your data, modifying the data and how you display it. Data “operations” are things like filtering, searching, sorting, updating, adding, removing and so on. *Imagine what users would want to do while using your catalog website, and make it a feature!*  
+ - Look polished. Use HTML and CSS to customize how you display your data. Display your data thoughtfully, as it’s much more useful that way!  
+ - Be built from this starter code, though you can change anything you like. *The starter code shows a simple example of a data catalog website and introduces you to JS/html/css, but you should be making significant changes and improvements.*  
+ - Be an original website. Please do not submit something you’ve already done for a school project, internship, or client. *Using online resources for reference and guidance is encouraged, but be a responsible developer and make sure you understand every line of code in your project.*
+
 
 ## Getting Started
 
