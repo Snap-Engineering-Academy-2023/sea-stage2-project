@@ -13,8 +13,7 @@ This is the instructions, requirements, and starter for stage two of the Snap En
 
  - Show off your understanding of basic data structures: arrays and objects.  
  - Display a substantial amount of interesting data in a "Catalog"! You can look online for datasets or make your own. Your data should be easy to find in your source code, held either in variables defined at the top of scripts.js or imported from a file you added.  
- - Handle data "dynamically." If the data in your data structures changes, then your code should display those changes after a reload.
-Have two or more features that “operate” on your data, modifying the data and how you display it. Data “operations” are things like filtering, searching, sorting, updating, adding, removing and so on. *Imagine what users would want to do while using your catalog website, and make it a feature!*  
+ - Have two or more features that “operate” on your data, modifying the data and how you display it. Data “operations” are things like filtering, searching, sorting, updating, adding, removing and so on. *Imagine what users would want to do while using your catalog website, and make it a feature!*  
  - Look polished. Use HTML and CSS to customize how you display your data. Display your data thoughtfully, as it’s much more useful that way!  
  - Be built from this starter code, though you can change anything you like. *The starter code shows a simple example of a data catalog website and introduces you to JS/html/css, but you should be making significant changes and improvements.*  
  - Be an original website. Please do not submit something you’ve already done for a school project, internship, or client. *Using online resources for reference and guidance is encouraged, but be a responsible developer and make sure you understand every line of code in your project.*
