@@ -38,6 +38,8 @@ This is the instructions, requirements, and starter for stage two of the Snap En
 
 1. Publish your website to the internet! You can use any method you like, but we recommend [Github Pages.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
 
-2. Update your Github repository so it has the most recent version of your website's source code.
+2. Test the published version of your website! Sometimes code that works on your computer won't work when it's published to the internet. The published site is what we'll be looking at, so you need to be absolutely sure it works properly. 
 
-3. Submit the URL to your published website and the link to your Github repository to the google form in your email.
+3. Update your Github repository so it has the most recent version of your website's source code.
+
+4. Submit the URL to your published website and the link to your Github repository to the google form in your email.
